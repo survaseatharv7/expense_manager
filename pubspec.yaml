@@ -1,0 +1,34 @@
+name: expense_manager_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.3
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  syncfusion_flutter_charts: ^28.1.41
+  pie_chart: ^5.4.0
+  intl: ^0.20.2
+  cached_network_image: ^3.4.1
+  slideable: ^0.0.2
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.11.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter_icons:
+  android:  true
+  ios:  true
+  image_path: "assets/Logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/
